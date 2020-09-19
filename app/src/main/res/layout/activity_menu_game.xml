@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    tools:context=".Game.MenuGameActivity">
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="@drawable/buttoncolor"
+        android:textStyle="bold"
+        android:id="@+id/newGame"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/new_game"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="@drawable/buttoncolor"
+        android:textStyle="bold"
+        android:id="@+id/repeatRun"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/repeated_first_run"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+</LinearLayout>

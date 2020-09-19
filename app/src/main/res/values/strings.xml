@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestProject</string>
+    <string name="repeated_first_run">Repeated \'First run\'</string>
+    <string name="new_game">New Game</string>
+</resources>
